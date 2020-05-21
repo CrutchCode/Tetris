@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TETRIS2", "TETRIS2\TETRIS2.csproj", "{F8C02A44-A697-40B3-B99A-772FAA7E4980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeFigures", "ShapeFigures\ShapeFigures.csproj", "{36DACD63-6ADC-4DA0-ADBE-A8228503EAC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C02A44-A697-40B3-B99A-772FAA7E4980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C02A44-A697-40B3-B99A-772FAA7E4980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C02A44-A697-40B3-B99A-772FAA7E4980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C02A44-A697-40B3-B99A-772FAA7E4980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36DACD63-6ADC-4DA0-ADBE-A8228503EAC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DACD63-6ADC-4DA0-ADBE-A8228503EAC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36DACD63-6ADC-4DA0-ADBE-A8228503EAC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36DACD63-6ADC-4DA0-ADBE-A8228503EAC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04D919C1-A639-4BF3-A285-FD2657621153}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<Window x:Class="TETRIS2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TETRIS2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="360" KeyDown="button_click">
+    <Grid x:Name="grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="240"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Menu Grid.Row="0" Grid.Column="0" Height="20" VerticalAlignment="Top" Grid.ColumnSpan="2" Background="AliceBlue">
+            <MenuItem Header="File" Height="20">
+                <MenuItem Header="New Game" Click="Start_Click"></MenuItem>
+                <MenuItem Header="Pause Game"></MenuItem>
+                <MenuItem Header="Continue Game"></MenuItem>
+                <Separator />
+                <MenuItem Header="Exit" ></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Info"></MenuItem>
+        </Menu>
+    </Grid>
+</Window>
